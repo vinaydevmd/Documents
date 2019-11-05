@@ -55,7 +55,7 @@ I think you should use an
 `<addr>` element here instead.
 
 #Syntax Highlighting
-Git flavoured MarkDown [ GitHub Flavored Markdown:] (https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax) -- automatic!
+[GitHub Flavored Markdown:](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
 
 ```javascript
 function fancyAlert(arg) {
@@ -67,6 +67,8 @@ function fancyAlert(arg) {
 
 You can also simply indent your code by four spaces:
 
+
+
 function fancyAlert(arg) {
       if(arg) {
         $.facebox({div:'#foo'})
@@ -74,9 +76,15 @@ function fancyAlert(arg) {
     }
     
 Here’s an example of Python code without syntax highlighting:
+
 def foo():
     if not bar:
         return True
         
         
+#Task Lists
 
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported 
+- [x] list syntax required (any unordered or ordered list supported) 
+- [x] this is a complete item 
+- [ ] this is an incomplete item
