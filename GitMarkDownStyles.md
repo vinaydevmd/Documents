@@ -88,3 +88,8 @@ def foo():
 - [x] list syntax required (any unordered or ordered list supported) 
 - [x] this is a complete item 
 - [ ] this is an incomplete item
+
+
+You can indicate emphasis with bold, italic, or strikethrough text.
+[Basic Writing and Fromatting syntax](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
+
