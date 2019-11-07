@@ -93,3 +93,11 @@ def foo():
 You can indicate emphasis with bold, italic, or strikethrough text.
 [Basic Writing and Fromatting syntax](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
 
+#Tables
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
