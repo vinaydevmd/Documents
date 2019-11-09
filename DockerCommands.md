@@ -79,4 +79,4 @@ ENTRYPOINT ["dotnet", "aspnetcoredocker.dll"]  \\Entry point of the applicaiton
 * docker images (shows all the images)
 * docker stop <container id> ( stops running container)
 
-
+Next
