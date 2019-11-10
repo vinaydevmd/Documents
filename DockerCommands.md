@@ -79,4 +79,5 @@ ENTRYPOINT ["dotnet", "aspnetcoredocker.dll"]  \\Entry point of the applicaiton
 * docker images (shows all the images)
 * docker stop <container id> ( stops running container)
 
-Next
+# VSCode Extentions:
+Docker Extension : Adds syntax highlighting, commands, hover tips, and linting for Dockerfile and docker-compose files
