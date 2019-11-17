@@ -1,6 +1,4 @@
 # Documents
-Will be captureing Knowledge learnging doucments 
+Please have a look into to documents based on my Study and fast to learn.
 
-Best Practices to write a docker file
-https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 
