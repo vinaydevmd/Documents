@@ -7,11 +7,11 @@ Bash Commands for Beginners:
 Commands     | Description 
 ------------ | -------------
 #clear       | Clear the screen
-#who         | How many sessions connected to the Linux system
-#who         | How many sessions connected to the Linux system
-#who         | How many sessions connected to the Linux system
-#who         | How many sessions connected to the Linux system
-#who         | How many sessions connected to the Linux system
-#who         | How many sessions connected to the Linux system
-#who         | How many sessions connected to the Linux system
-
+#who         | currented users logged in user details
+#echo $var   | extact value from variable
+#uname -a    | Unix version details
+#exit        | Going out of session
+#pwd         | Gives present working directory name
+#tty         | terminal points
+#type echo   | type command shows the type of command of "echo"
+#ls          | list files inside folder or working directory
