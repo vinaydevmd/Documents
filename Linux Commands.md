@@ -15,3 +15,8 @@ Commands     | Description
 #tty         | terminal points
 #type echo   | type command shows the type of command of "echo"
 #ls          | list files inside folder or working directory
+#ls -l       | long listing files
+#ls -l       | long listing files
+#ls -l       | long listing files
+#mkdir       | creat directory
+#touch <filename> | creates files without editing, fast way to create files
