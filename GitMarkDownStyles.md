@@ -101,3 +101,13 @@ Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
 
+# How to link git documents inside other git document?
+You have to replace the spaces with %20 when both .md files were in the same repository.
+
+[Introduction to Unix](Introduction%20to%20Unix.pdf)
+ 
+
+Hope this helps :)
+
+
+
