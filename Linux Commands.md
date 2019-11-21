@@ -1,6 +1,8 @@
 To change admin or super user mode
 Type. su - and press ↵ Enter , then type password to getinto to amdin mode or superuser mode
 
+[Linux Web Tutorials](https://www.tutorialspoint.com/unix/index.htm)
+
 Bash Commands for Beginners:
 # BASH - Bourne Against Shell
 
