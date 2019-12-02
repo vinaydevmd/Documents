@@ -71,7 +71,7 @@ ENTRYPOINT ["dotnet", "aspnetcoredocker.dll"]  \\Entry point of the applicaiton
 * docker build -t <your username> /node . ( tag your image name)
   * $ docker build -t whenry/fedora-jboss:latest -t whenry/fedora-jboss:v2.1 . ( you can have multiple tags while building docker file)
   * $ docker tag <image> <newName>/<repoName>:<tagName> (tag build name)
-  * docker build --build-arg http_proxy=http://proxy2024.scansafe.net:8080  --build-arg https_proxy=http://proxy2024.scansafe.net:8080 -      t aspnetapp . (if you have proxy settings in your network).
+  * docker build --build-arg http_proxy=http://proxy2024.scansafe.net:8080  -t aspnetapp . (if you have proxy settings in your network).
 * docker build --pull -t aspnetapp . (you can pull image from dockerhub)
 * docker run --name aspnetcore_sample -p 8000:80 aspnetapp
 * docker run -d -p 8000:3000 aspnetapp ( d- stands for daemon mode means running background)
