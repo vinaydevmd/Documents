@@ -115,4 +115,17 @@ COPY --from=publish /app .
 ENTRYPOINT ["dotnet", "WebAPIProject.dll"]
 
 ```
-//next?
+//If you are using private Nuget settings then <br>
+https://github.com/microsoft/azure-pipelines-tasks/issues/6135 <br>
+//Create Nuget.config file and add it in docker file <br>
+https://github.com/dotnet/dotnet-docker/issues/463 <br>
+
+//If you stuck in calling localhost from docker container while running then use <br>
+//Run this command to test the ip address of the docker running deamon, <br>
+docker network inspect bridge --format='{{( index .IPAM.Config 0).Gateway}}'
+
+//Then based on that configure your localhost to this IP, if you have domain then you can directly call the domain. <br>
+https://github.com/qoomon/docker-host
+
+
+
