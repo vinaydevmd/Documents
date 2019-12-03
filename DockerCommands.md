@@ -127,5 +127,12 @@ docker network inspect bridge --format='{{( index .IPAM.Config 0).Gateway}}'
 //Then based on that configure your localhost to this IP, if you have domain then you can directly call the domain. <br>
 https://github.com/qoomon/docker-host
 
+# how to modify container <br>
+//Use below conatiner to get inside container and modify files inside it, below is for linux container using bash, <br>
+docker exec -it "conainer ID" bash <br>
+//it opens bash command prompt inside container you can view files inside it
+
+
+
 
 
