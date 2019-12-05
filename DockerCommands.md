@@ -130,7 +130,12 @@ https://github.com/qoomon/docker-host
 # how to modify container <br>
 //Use below conatiner to get inside container and modify files inside it, below is for linux container using bash, <br>
 docker exec -it "conainer ID" bash <br>
-//it opens bash command prompt inside container you can view files inside it
+//it opens bash command prompt inside container you can view files inside it <br>
+
+# How to edit docker image and push backto docker hub <br>
+https://ropenscilabs.github.io/r-docker-tutorial/04-Dockerhub.html <br>
+https://docs.docker.com/engine/reference/commandline/push/ <br>
+
 
 
 
