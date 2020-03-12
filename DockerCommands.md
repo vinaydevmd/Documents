@@ -75,6 +75,7 @@ ENTRYPOINT ["dotnet", "aspnetcoredocker.dll"]  \\Entry point of the applicaiton
 * docker build --pull -t aspnetapp . (you can pull image from dockerhub)
 * docker run --name aspnetcore_sample -p 8000:80 aspnetapp
 * docker run -d -p 8000:3000 aspnetapp ( d- stands for daemon mode means running background)
+* docker run -e  "http_proxy=http://proxy2024.scansafe.net:8080" -it ubuntu /bin/bash
 * docker ps -a ( show all running containers)
 * docker ps ( show only running containers)
 * docker rm <container id> (removes container w.r.t container ID)
