@@ -82,6 +82,11 @@ ENTRYPOINT ["dotnet", "aspnetcoredocker.dll"]  \\Entry point of the applicaiton
 * docker rmi <image_id> ( removes imaged id based on image ID)
 * docker images (shows all the images)
 * docker stop <container id> ( stops running container)
+* docker ps -aq ( List all containers (only IDs) )
+* docker stop $(docker ps -aq) (Stop all running containers)
+* docker rm $(docker ps -aq) (Remove all containers.)
+* docker rmi $(docker images -q) (Remove all images.)
+ 
 
 # VSCode Extentions:
 Docker Extension : Adds syntax highlighting, commands, hover tips, and linting for Dockerfile and docker-compose files
