@@ -86,6 +86,7 @@ ENTRYPOINT ["dotnet", "aspnetcoredocker.dll"]  \\Entry point of the applicaiton
 * docker stop $(docker ps -aq) (Stop all running containers)
 * docker rm $(docker ps -aq) (Remove all containers.)
 * docker rmi $(docker images -q) (Remove all images.)
+ *docker rmi -f $(docker images -a -q) (remove all images from local repo or hub)
  
 
 # VSCode Extentions:
