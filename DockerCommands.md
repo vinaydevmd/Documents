@@ -53,7 +53,8 @@ ENTRYPOINT ["npm","start"]  \\Entry point of the applicaiton
 Docker file for .Net framework environment
 * [Sample Docker File](https://hub.docker.com/r/microsoft/aspnetcore-build/),
 * [How to Run Dockerfile?]( https://hub.docker.com/r/microsoft/aspnetcore),
-* [Official Microsoft Docker Images](https://hub.docker.com/u/microsoft)
+* [Official Microsoft Docker Images](https://hub.docker.com/u/microsoft),
+* [Sample .NetCore App](https://github.com/dotnet/dotnet-docker/blob/master/samples/dotnetapp/README.md)
 
 User docker
 ```javascript
@@ -92,7 +93,7 @@ ENTRYPOINT ["dotnet", "aspnetcoredocker.dll"]  \\Entry point of the applicaiton
 # VSCode Extentions:
 Docker Extension : Adds syntax highlighting, commands, hover tips, and linting for Dockerfile and docker-compose files
 
-# Sample Docker file with mulitple projects support
+# Sample Docker file with mulitple projects support 
 
 ``` javascript
 FROM microsoft/aspnetcore:2.0 AS base
